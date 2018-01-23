@@ -32,7 +32,29 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Id"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_margin="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:fontFamily="sans-serif-condensed"
+                android:text="User Id"
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
@@ -95,4 +117,10 @@
 
 
     </TableLayout>
+    <ImageView android:id="@+id/qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table1"
+        android:layout_margin="70dp"
+        />
 </RelativeLayout>
